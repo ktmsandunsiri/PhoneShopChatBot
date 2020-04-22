@@ -1,0 +1,25 @@
+{
+    "resourceName": "11",
+    "botName": "ggg",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "loc",
+                    "type": "AMAZON.Actor",
+                    "prompt": "city",
+                    "required": false,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "test"
+            ],
+            "intentName": "testuu",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": "20",
+    "coppa": false
+}

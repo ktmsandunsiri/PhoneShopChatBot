@@ -1,0 +1,26 @@
+{
+    "openv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orderphonechatbot-openv-221716-authRole",
+            "UnauthRoleArn": "arn:aws:iam::334807468209:role/amplify-orderphonechatbot-openv-221716-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::334807468209:role/amplify-orderphonechatbot-openv-221716-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orderphonechatbot-openv-221716-deployment",
+            "UnauthRoleName": "amplify-orderphonechatbot-openv-221716-unauthRole",
+            "StackName": "amplify-orderphonechatbot-openv-221716",
+            "StackId": "arn:aws:cloudformation:us-east-1:334807468209:stack/amplify-orderphonechatbot-openv-221716/f229dc60-84b8-11ea-a73c-0e65f7e0e97d",
+            "AmplifyAppId": "d1u5ckr18cjuqe"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1u5ckr18cjuqe",
+                    "type": "manual"
+                }
+            },
+            "auth": {
+                "cognito4f55b6c7": {}
+            }
+        }
+    }
+}
