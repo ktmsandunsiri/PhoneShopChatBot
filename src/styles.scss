@@ -1,1 +1,103 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    span {
+        background-color: #00a1f7;
+        color: #ffffff;
+        padding: 5px;
+        font-style: italic;
+        opacity: 0.5;
+    }
+}
+
+.amplify-component {
+    height: 500px;
+}
+
+.amplify-interactions{
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #cccccc;
+    overflow-y: scroll;
+
+    .amplify-interactions-container {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .amplify-interactions-actions {
+        display: inline-flex;
+        width: 100%;
+
+        .amplify-form-input {
+            height: 24px;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            background-color: #f0f0f0;
+            box-shadow: 0px 0px 12px #bdbdbd;
+    
+            ::placeholder {
+                font-style: italic;
+            }
+        }
+
+        button {
+            height: 30px;
+            width: 30%;
+            background-color: #008ee0;
+            color: #ffffff;
+            border: none;
+            display: none;
+        }
+    }
+}
+
+.amplify-form-row {
+    padding: 12px;
+    font-family: sans-serif;
+
+    .amplify-interactions-conversation {
+        .amplify-interactions-input {
+            background-color: #e8e8e8;
+            border-radius: 30px;
+            width: 50%;
+            font-size: 14px;
+            padding: 12px;
+            float: left;
+        }
+
+        .amplify-interactions-input-timestamp {
+            font-size: 10px;
+            padding: 4px 13px;
+            color: #8f8f8f;
+            width: 50%;
+            float: left;
+        }
+
+        .amplify-interactions-response {
+            background-image: linear-gradient(-90deg, #00a8d6, #02daed);
+            border-radius: 30px;
+            width: 50%;
+            font-size: 14px;
+            padding: 12px;
+            float: right;
+        }
+
+        .amplify-interactions-response-timestamp {
+            width: 50%;
+            float: right;
+            font-size: 10px;
+            padding: 4px 13px;
+            text-align: right;
+            color: #8f8f8f;
+        }
+    }
+}
