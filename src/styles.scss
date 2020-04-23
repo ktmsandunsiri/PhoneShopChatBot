@@ -28,6 +28,8 @@ h1 {
     .amplify-form-container {
         overflow: auto;
         height: 450px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .amplify-interactions-container {
